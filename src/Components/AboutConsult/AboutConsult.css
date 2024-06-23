@@ -24,21 +24,21 @@
     max-width: 100%;
     display: flex;
     background-color: #e91e1eaf; 
+    padding: 10px;
 }
+
 
 .image_profile {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    height: 3.6rem;
-    width: 5rem;
+    height: 3em;
+    min-width: 3em;
     border-radius: 50%;
     margin: 1rem;
     background-color: white;
-
-    
 }
+
 
 
 .btns_pr1 {
@@ -81,6 +81,8 @@
     max-width: 50%;
 }
 
+
+
 .about_ h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
@@ -112,6 +114,16 @@
     .first_about {
         flex-direction: column;
         align-items: center;
+    }
+
+    .about_ {
+        .h2 {
+            font-size: 21px;
+        }
+        .para {
+            font-size: 12px;
+
+        }
     }
 
     .about_wrapper,
