@@ -5,7 +5,7 @@ function AboutConsult() {
     return (
         <div className="first_about">
             <div className="about_wrapper">
-                <h1>Welcome To <span className='consult'>Consult</span></h1>
+                <h1 className='h1'>Welcome To <span className='consult'>Consult</span></h1>
                 <div className="btns_pr1">
                     <h6 className='small-content'>
                         Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore
