@@ -1,7 +1,6 @@
 .main-container {
-    border: 2px solid black;
+    border: 2px solid #ddd;
     padding: 20px;
-    /* No flex properties here */
 }
 
 .title-div {
@@ -11,7 +10,6 @@
 .title {
     font-size: 2rem;
     color: #333;
-    margin-bottom: 20px;
 }
 
 .content-div {
@@ -19,25 +17,16 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    border: 2px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .sub-content {
     flex: 1 1 calc(33% - 40px);
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
     text-align: center;
-    max-width: 33%;
+    flex-wrap: wrap;
 }
 
 .nested-div {
-    border: 1px solid #aaa;
     padding: 10px;
-    border-radius: 5px;
     background-color: #fff;
     margin-bottom: 10px;
 }
@@ -45,13 +34,11 @@
 .img-fluid {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
 }
 
 .icons {
     height: 2em;
     width: 4rem;
-    border: 2px solid black;
     background-color: rgba(218, 65, 65, 0.749);
     border-radius: 50%;
     display: flex;
@@ -59,4 +46,41 @@
     align-items: center;
     font-size: xx-large;
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 1.75rem; 
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 1.5rem; 
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.25rem; 
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 1rem; 
+    }
+    h3 {
+        font-size: 18px;
+    }
 }
