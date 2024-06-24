@@ -1,0 +1,30 @@
+.client-img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+
+.icon-div {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(209, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.icon-div i {
+    font-size: 20px;
+}
+
+.icon-div:hover {
+    background-color: rgb(179, 39, 39);
+}
