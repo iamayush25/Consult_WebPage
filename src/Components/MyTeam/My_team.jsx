@@ -15,8 +15,8 @@ function My_Team() {
                             alt="Team member 1"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Team Member 1</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 className="card-title">Front-end Devoloper</h5>
+                            <p className="card-text">Focuses on creating and optimizing user-facing interfaces using HTML, CSS, and JavaScript frameworks.</p>
                         </div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ function My_Team() {
                             alt="Team member 2"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Team Member 2</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 className="card-title">Back-end Devoloper</h5>
+                            <p className="card-text">Manages server-side application logic and integration with databases using various programming languages and frameworks.</p>
                         </div>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ function My_Team() {
                             alt="Team member 3"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Team Member 3</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 className="card-title">Full Stack Devoloper</h5>
+                            <p className="card-text">Handles both frontend and backend development, ensuring seamless integration and functionality of web applications across all layers.</p>
                         </div>
                     </div>
                 </div>
