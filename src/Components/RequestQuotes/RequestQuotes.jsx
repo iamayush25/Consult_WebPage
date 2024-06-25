@@ -19,7 +19,7 @@ function RequestQuotes() {
                                 <option>Select A Service</option>
                                 <option>Option 2</option>
                             </select>
-                            <button type="button" className="btn btn-danger btn-lg" style={{ height: '3rem', width: '100%' }}>Large button</button>
+                            <button type="button" className="btn btn-danger btn-lg" style={{ height: '3rem', width: '100%' }}>Request A Quote</button>
                         </div>
                     </div>
                 </div>
