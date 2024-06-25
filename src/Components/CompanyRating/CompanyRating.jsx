@@ -43,7 +43,7 @@ function CompanyRating() {
                         </div>
                     </div>
 
-                    <div className="sub-content p-2">
+                    <div className="sub-content sub-contentImg  p-2">
                         <img
                             src={require('./featurePerson.jpg')}
                             alt="Example"
