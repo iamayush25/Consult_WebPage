@@ -1,5 +1,6 @@
 import React from 'react'
 import quote from "../RequestQuotes/quote.jpg"
+import "./RequestQuote.css"
 
 function RequestQuotes() {
   return (
@@ -7,7 +8,7 @@ function RequestQuotes() {
             <div className="row">
                 <div className="col-lg-6 col-md-12 mb-4">
                     <div className="h-100 p-5 bg-body-tertiary border">
-                        <h2 className='mt-4'>Add borders</h2>
+                        <h2 className='mt-4'>Request A Free Quote </h2>
                         <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
                         <div className="mb-3 mt-4 d-flex flex-column flex-md-row">
                             <input type="text" className="form-control me-md-2 mb-2 mb-md-0" placeholder="Full Name" style={{ height: '3rem', width: '100%' }} />
@@ -23,7 +24,7 @@ function RequestQuotes() {
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12 mb-4">
-                    <div className="h-100 bg-body-tertiary border rounded-3">
+                    <div className="h-100 bg-body-tertiary border rounded-3 quoteImg">
                         <img src={quote} alt="" className="img-fluid" style={{ height: '25rem', objectFit: 'cover', width: '100%' }} />
                     </div>
                 </div>
