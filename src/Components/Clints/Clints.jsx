@@ -9,7 +9,7 @@ function Clints() {
     <div className="p-4">
       <div className="row">
         <div className="col-lg-6 col-md-12 mb-4">
-          <div className="h-100 bg-body-tertiary border rounded-3">
+          <div className="h-100 bg-body-tertiary border rounded-3 clintImg">
             <img 
               src={img_Client} 
               alt="Client Testimonial" 

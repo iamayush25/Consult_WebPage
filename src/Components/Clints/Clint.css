@@ -5,7 +5,25 @@
     object-fit: cover;
     display: block;
     overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+
 }
+
+.client-img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clintImg {
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+.clintImg:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .icon-div {
     height: 40px;
