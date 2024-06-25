@@ -4,11 +4,11 @@ import './Footer.css';
 
 
 function Footer() {
-  return (
-    <div className='bg-dark text-white'>
+    return (
+        <div className='bg-dark text-white'>
             <div className="text-center mb-4 bg-danger" style={{ height: '25vh', paddingTop: '30px' }}>
-                <h1 className="text-white" style={{color : "blue"}}>Stay Updated!!!</h1>
-                <div className="d-flex justify-content-center align-items-center"> 
+                <h1 className="text-white" style={{ color: "blue" }}>Stay Updated!!!</h1>
+                <div className="d-flex justify-content-center align-items-center">
                     <input type="text" placeholder="Your Email" className="form-control d-inline-block text-white border-white" style={{ width: '20%', borderRadius: '0px' }} />
                     <button type="button" className="btn btn-dark" style={{ borderRadius: '0px' }}>Sign Up</button>
                 </div>
@@ -52,16 +52,17 @@ function Footer() {
                             <div className="me-2 text-white FollowMe" id="footer-icon"><i className="fab fa-instagram"></i></div>
                         </div>
                     </div>
-                    <div className='container border-top text-white ' style={{width:'200vh'}}>
-                        <p class="text-center text-white">
-                        All content in this WebPage © Ayush Sharma is protected by copyright ; <br/> unauthorized
-                        use is prohibited.
+                    <hr style={{width: "100%" }} />
+                    <div className="container-fluid text-white" style={{ display: 'flex' }}>
+                        <p className="text-center py-2" style={{ display: 'inline' }}>
+                            All content in this WebPage © Ayush Sharma is protected by copyright ; <br /> unauthorized
+                            use is prohibited.
                         </p>
                     </div>
                 </footer>
             </div>
         </div>
-  )
+    )
 }
 
 export default Footer

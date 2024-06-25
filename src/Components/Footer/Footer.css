@@ -23,11 +23,18 @@ input{
 
 .FollowMe {
     transition: transform 0.2s, box-shadow 0.2s;
-
+    cursor: pointer;
 }
 
 .FollowMe:hover{
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
