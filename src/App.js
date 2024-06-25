@@ -16,7 +16,7 @@ function App() {
     <>
       {/* <UpperNavbar/> */}
       <MainNavbar />
-      {/* <Employee_Profile /> */}
+      <Employee_Profile />
       <AboutConsult />
       <Offers />
       <CompanyRating/>
