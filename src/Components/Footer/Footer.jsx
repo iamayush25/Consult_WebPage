@@ -46,10 +46,10 @@ function Footer() {
                     <div className="col mb-3">
                         <h5 className="text-white">Follow Us</h5>
                         <div className="d-flex">
-                            <div className="me-2 text-white" id="footer-icon"><i className="fab fa-twitter"></i></div>
-                            <div className="me-2 text-white" id="footer-icon"><i className="fab fa-facebook-f"></i></div>
-                            <div className="me-2 text-white" id="footer-icon"><i className="fab fa-linkedin"></i></div>
-                            <div className="me-2 text-white" id="footer-icon"><i className="fab fa-instagram"></i></div>
+                            <div className="me-2 text-white FollowMe" id="footer-icon"><i className="fab fa-twitter"></i></div>
+                            <div className="me-2 text-white FollowMe" id="footer-icon"><i className="fab fa-facebook-f"></i></div>
+                            <div className="me-2 text-white FollowMe" id="footer-icon"><i className="fab fa-linkedin"></i></div>
+                            <div className="me-2 text-white FollowMe" id="footer-icon"><i className="fab fa-instagram"></i></div>
                         </div>
                     </div>
                     <div className='container border-top text-white ' style={{width:'200vh'}}>
