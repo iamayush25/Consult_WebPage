@@ -1,7 +1,6 @@
 .RoundLogos {
     height: 5rem;
     width: 5rem;
-    border: 2px solid black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -15,4 +14,13 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.myCard {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.myCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
